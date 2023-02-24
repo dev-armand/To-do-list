@@ -1,0 +1,48 @@
+body{
+  background-color: lightblue;
+}
+
+.add-button{
+  background-color:rgb(9, 236, 39);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+  font-size: large;
+  font-weight: 300;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.add-button:hover {
+  background-color: rgb(2, 218, 2);
+}
+
+.pop{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: large;
+}
+
+input{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+button{
+  margin-left: 20px;
+  margin-right: 20px; 
+}
+
+.deleteButton {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.deleteButton:hover{
+  cursor: pointer;
+  background-color: rgb(226, 0, 0);
+}
